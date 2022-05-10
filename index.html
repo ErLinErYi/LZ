@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--设置过期时间设置0为直接过期并清除缓存-->
+    <meta http-equiv="Expires" content="0">
+    <!--设置不缓存页面-->
+    <meta http-equiv="Pragma" content="no-cache">
+    <!--设置不修改消息存储-->
+    <meta http-equiv="Cache-control" content="no-cache">
+    <!--同上-->
+    <meta http-equiv="Cache" content="no-cache">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="assets/css/goog.css" rel="stylesheet">
+
+    <link rel="icon" href="assets/images/PlantsVsZombies.ico" type="images/x-ico" />
+    <title>LZSCPVZTTD | 自制开源游戏</title>
+    <style type="text/css">
+        a:hover {
+            color: #007BFF;
+        }
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?d88a856e26dfdb8ab63efc207e443099";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body style="background-color: #000000;">
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary">
+        <div class="container">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation" style="margin: 100px 0px 0px 0px; size: a3;">
+                <i class="icon ion-md-menu text-light"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="https://support.qq.com/product/348645" target="_blank"
+                           style="color:red" id="cs">Bug反馈</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="donate.html" target="_blank">捐赠者名单</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="assets/images/fk.png" target="_blank">捐赠我们</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="https://afdian.net/@erlinersi" target="_blank">
+                            爱发电
+                        </a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="https://github.com/ErLinErYi/PlantsVsZombies"
+                           target="_blank">Github</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="https://gitee.com/GITLZ/PlantsVsZombies" target="_blank">Gitee</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="https://blog.csdn.net/qq_40630246/article/details/102643196"
+                           target="_blank">CSDN</a>
+                    </li>
+                    <!--<li class="nav-item mx-4">
+                        <a class="nav-link" href="doc/index.html" target="_blank">
+                            文档
+                        </a>
+                    </li>-->
+                    <li class="nav-item mx-4">
+                        <a class="nav-link" href="newlog/log.html" target="_blank">更新日志</a>
+                    </li>
+                    <li class="nav-item mx-4">
+                        <a class="nav-link font-weight-bold" href="https://space.bilibili.com/351783071"
+                           target="_blank">游戏视频</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-7 d-flex mt-5">
+                    <div class="align-self-center">
+                        <h1 class="display-4 text-light">LZPVZTTD</h1>
+                        <p class="lead text-light mt-4">时空旅行日记 - Time travel diary</p>
+                        <p class="lead text-light mt-4">V1.3.6.0（2022.01.21）已发布<br>C++ 重制 - 免费开源项目 支持Windows、Android平台</p>
+
+                        <a href="AndroidDownload.html" class="btn btn-secondary mt-5" target="_blank">
+                            <img src="assets/images/android.png" />
+                            安卓版下载
+                        </a>
+                        <a href="PCDownload.html" class="btn btn-secondary mt-5" target="_blank">
+                            <img src="assets/images/win.png" />
+                            电脑版下载
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 col-sm-5 d-flex mt-5">
+                    <div class="align-self-center text-center mx-auto">
+                        <img src="assets/images/main.png" class="img-fluid main-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container" style="color:white">
+            <h2>游戏说明</h2>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card p-4" style="background-color:rgba(40,40,40,0.9)">
+                        <p style="text-align: left;text-indent: 2em;" class="lead mt-2">
+                            此游戏全部由哔哩哔哩"尔领尔亿"（LZ）独立制作完成。此游戏与当前可以见到的众多改版不同。此程序不是基于原版游戏的二次开发，而是从新从零开始制作。
+                            该程序使用Cocos2dx游戏开发框架以及C++语言制作完成。目前该程序的所有源代码已经开源到github以及gitee上。
+                        </p>
+                        <p style="text-align: left;text-indent: 2em;" class="lead mt-2">
+                            如果你已经玩腻了原版，推荐你尝试一下与原版同样优秀但又不太一样的自制版本。注：拥有独立显卡配置的电脑游戏体验更佳。
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card p-4" style="background-color:rgba(40,40,40,0.9)">
+                        <p style="text-align: left;text-indent: 2em;" class="lead mt-2">
+                            此游戏目前已经有多种游戏模式。有着不同种类的游戏关卡、有着超过几百关数量的游戏关卡、有着超大地图10行18列的游戏模式、有着“锤僵尸”无尽版的游戏模式等等种类。
+                            此游戏使用的绝大部分图片、音乐、音效、字体等资源文件来源于原版一代、二代、以及三代的游戏资源，少部分收集于网络以及自己制作。
+                            功能与玩法也更加多样。目前游戏用有32种植物43种僵尸。该游戏含有原版1~3代中的一些元素。游戏名称由"Komvan Rernart"小伙伴提议命名。
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card p-4" style="background-color:rgba(40,40,40,0.9)">
+                        <p style="text-align: left;text-indent: 2em;" class="lead mt-2">
+                            相比较与原版此游戏在画面分辨率远远高于原版。原版是(800x600)，此游戏设计分辨率是1080p(1920x1080)并且支持2k，4k等。
+                            支持画面拉伸显示，适应屏幕比例为21:9，4:3等特殊屏幕比例。目前较为常见的屏幕比例为(16:9)。在刷新率方
+                            面，在高帧率模式下，游戏帧率根据你的电脑屏幕刷新率保持一致。此程序使用原版游戏素材所以不得用于商业用途，否则后果自负。
+                            当你运行此游戏或者使用其源代码时则认为默认同意此协议，否则请退出游戏并删除。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <br /><br /><br />
+            <h2>最低配置</h2>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card p-4" style="background-color:rgba(40,40,40,0.9)">
+                        <br />操作系统：Windows 7/8/10 32/64 bit
+                        <br />处理器：2.50GHz+ 处理器
+                        <br />内存：4GB+ RAM
+                        <br />显卡：独立显卡、1G+ 显存
+                        <br />硬盘所需空间：500MB+ 硬盘剩余空间
+                        <br />分辨率：1920 ×1080（1080P+)
+
+                        <div class="d-flex mt-3">
+                            <div class="user align-self-center mr-3">
+                                <img src="assets/images/win.png">
+                            </div>
+                            <div class="user-info align-self-center">
+                                <h6 class="mb-0">Windows</h6>
+                                <small>Win7/Win8/Win10</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card p-4" style="background-color:rgba(40,40,40,0.9)">
+                        <br />操作系统：android 4.0+ 64 bit
+                        <br />处理器：2.50GHz+ 处理器
+                        <br />内存：4GB+ RAM
+                        <br />硬盘所需空间：200MB+ 硬盘剩余空间
+                        <br />分辨率：1920 ×1080（1080P+)
+                        <br />刷新率：60 +
+                        <div class="d-flex mt-3">
+                            <div class="user align-self-center mr-3">
+                                <img src="assets/images/android.png">
+                            </div>
+                            <div class="user-info align-self-center">
+                                <h6 class="mb-0">Android</h6>
+                                <small>android 4.0+</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card p-4" style="background-color:rgba(40,40,40,0.9)">
+                        <br />操作系统：......
+                        <br />处理器：......
+                        <br />内存：......
+                        <br />硬盘所需空间：......
+                        <br />声卡：......
+                        <br />分辨率：......
+                        <div class="d-flex mt-3">
+                            <div class="user align-self-center mr-3">
+                                <img src="assets/images/ios.png">
+                            </div>
+                            <div class="user-info align-self-center">
+                                <h6 class="mb-0">......</h6>
+                                <small>......</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container" style="color:white">
+            <h2>运行画面</h2>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <a href="assets/video/new.webm" class="mt-3">
+                        <!--https://lzpvz.rthe.net/video/v.webm-->
+                        <video autoplay="autoplay" src="assets/video/new.webm" controls="controls" loop="loop"
+                               muted="muted" width="1280" height="720" class="img-fluid rounded"></video>
+                    </a>
+                    <h5 class="mt-3"><span class="active">示例</span> - 游戏视频</h5>
+                    <p class="mt-2"></p>
+                </div>
+                <div class="col-md-6">
+                    <a href="assets/images/example1.png" target="_blank" class="mt-3">
+                        <img src="assets/images/example1.png" class="img-fluid rounded">
+                    </a>
+                    <h5 class="mt-3"><span class="active">示例</span> - 锤僵尸模式游戏画面</h5>
+                    <p class="mt-2"></p>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="assets/images/example2.png" target="_blank" class="mt-3">
+                        <img src="assets/images/example2.png" class="img-fluid rounded">
+                    </a>
+                    <h5 class="mt-3"><span class="active">示例</span> - 大地图模式游戏画面</h5>
+                    <p class="mt-2"></p>
+                </div>
+                <div class="col-md-6">
+                    <a href="assets/images/example3.png" target="_blank" class="mt-3">
+                        <img src="assets/images/example3.png" class="img-fluid rounded">
+                    </a>
+                    <h5 class="mt-3"><span class="active">示例</span> - 普通模式游戏画面</h5>
+                    <p class="mt-2"></p>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="assets/images/example.png" target="_blank" class="mt-3">
+                        <img src="assets/images/example.png" class="img-fluid rounded">
+                    </a>
+                    <h5 class="mt-3"><span class="active">示例</span> - 关卡选择画面</h5>
+                    <p class="mt-2">采用二代游戏的模式.</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="assets/images/menu.png" target="_blank" class="mt-3">
+                        <img src="assets/images/menu.png" class="img-fluid rounded">
+                    </a>
+                    <h5 class="mt-3"><span class="active">示例</span> - 主菜单</h5>
+                    <p class="mt-2">采用一代的游戏主菜单</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-primary" style="text-align: center;">
+        <div class="container">
+            <section>
+                <div style="text-align: left ;color:gray; font-size: 20px;" class="container">
+                    <p style="font-size:23px;">疑难问题解答：</p>
+                    <ul>
+                        <li>该网站下载的程序没有病毒，如果Windows下载器导致电脑出现警告可能是误报，点击继续安装即可。如果不放心可以选择“直接下载”按钮下载。</li>
+                        <li>对于安卓版本，如果手机安装过之前的版本不要卸载之前的版本，可以直接覆盖安装新版本。注意：卸载之前的版本会导致存档被删除。</li>
+                        <li>如果内存太小可能导致出现游戏闪退。</li>
+                        <li>游戏bug反馈与游戏的一些建议可以点击进入项目issues或者发送邮件到下面的邮箱地址。</li>
+                        <li>游戏会不断完善不断更新，更新时间不确定，不定时更新。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <h6 class="text-uppercase">Information</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="https://space.bilibili.com/351783071" target="_blank">BiliBili</a></li>
+                        <li><a href="https://www.bilibili.com/video/BV1kh411Q7W5" target="_blank">游戏视频</a></li>
+                        <li><a href="https://jq.qq.com/?_wv=1027&k=YgRPhXqw" target="_blank">QQ1群:926707238 QQ2群:690484109</a></li>
+                        <li><a href="mailto:zhengl0324@qq.com" target="_blank">Email：zhengl0324@qq.com</a></li>
+                        <li><a href="https://support.qq.com/product/348645">游戏bug反馈与游戏建议</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-uppercase">Link</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" target="_blank">网站二维码</a></li>
+                        <li class="nav-item mx-4">
+                            <img src="assets/images/web.png" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-uppercase">Code</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="https://github.com/ErLinErYi/PlantsVsZombies" target="_blank">Github</a></li>
+                        <li><a href="https://gitee.com/GITLZ/PlantsVsZombies" target="_blank">Gitee</a></li>
+                        <li>
+                            <a href="https://blog.csdn.net/qq_40630246/article/details/102643196"
+                               target="_blank">CSDN</a>
+                        </li>
+                        <li><a href="LICENSE.html" target="_blank">license</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="text-uppercase">others</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="https://afdian.net/@erlinersi" target="_blank">爱发电捐赠</a></li>
+                        <li><a href="newlog/log.html" target="_blank">更新日志</a></li>
+                        <li><a href="assets/images/fk.png" target="_blank">捐赠我们</a></li>
+                        <li><a href="donate.html" target="_blank">捐赠者名单</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <p>China Zh</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p>
+                        <img src="assets/images/beian.png" />Copyright © 2019 - right now. LZ(Name) All rights
+                        reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>-->
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+    //js后缀加个时间戳每回更新都会改变，浏览器视其为新的js不会进行缓存
+    document.write('<script type="text/javascript" src="js/test.js?time=' + new Date().getTime() + '"><' + '/' +
+    'script>');
+    //css也同上
+    document.write('<link rel="stylesheet" href="css/test.css?time=' + new Date().getTime() + '"/>');
+
+    // alert("1.该网站下载的程序没有病毒，如果Windows下载器导致电脑出现警告可能是误报，点击继续安装即可。如果不放心可以选择“直接下载”按钮下载。\n2.对于安卓版本，如果手机安装过之前的版本不要卸载之前的版本，可以直接覆盖安装新版本。注意：卸载之前的版本会导致存档被删除。\n3.如果内存太小可能导致出现游戏闪退。\n4.游戏会不断完善不断更新，更新时间不确定，不定时更新。");
+</script>
